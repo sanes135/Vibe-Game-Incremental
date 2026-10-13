@@ -1,0 +1,4145 @@
+problems:
+[{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/big_num.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [0]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "0",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/big_num.rs"
+		}
+	},
+	"severity": 8,
+	"message": "conflicting implementations of trait `std::default::Default` for type `BigNum`\nconflicting implementation for `BigNum`",
+	"source": "rustc",
+	"startLineNumber": 13,
+	"startColumn": 54,
+	"endLineNumber": 13,
+	"endColumn": 61,
+	"relatedInformation": [
+		{
+			"startLineNumber": 320,
+			"startColumn": 1,
+			"endLineNumber": 320,
+			"endColumn": 24,
+			"message": "first implementation here",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/big_num.rs"
+		}
+	],
+	"origin": "extHost1"
+}]
+[{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [2]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "2",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot call non-const function `pow10` in constants\ncalls in constants are limited to constant functions, tuple structs and tuple variants",
+	"source": "rustc",
+	"startLineNumber": 7,
+	"startColumn": 40,
+	"endLineNumber": 7,
+	"endColumn": 48,
+	"relatedInformation": [
+		{
+			"startLineNumber": 334,
+			"startColumn": 1,
+			"endLineNumber": 334,
+			"endColumn": 31,
+			"message": "function `pow10` is not const",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/big_num.rs"
+		}
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [3]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "3",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot call non-const function `big_num::pow10` in constants\ncalls in constants are limited to constant functions, tuple structs and tuple variants",
+	"source": "rustc",
+	"startLineNumber": 7,
+	"startColumn": 40,
+	"endLineNumber": 7,
+	"endColumn": 48,
+	"relatedInformation": [
+		{
+			"startLineNumber": 334,
+			"startColumn": 1,
+			"endLineNumber": 334,
+			"endColumn": 31,
+			"message": "function `pow10` is not const",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/big_num.rs"
+		}
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [4]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "4",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `f64`, found `BigNum`",
+	"source": "rustc",
+	"startLineNumber": 212,
+	"startColumn": 25,
+	"endLineNumber": 212,
+	"endColumn": 41,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [5]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "5",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `f64`, found `BigNum`",
+	"source": "rustc",
+	"startLineNumber": 218,
+	"startColumn": 29,
+	"endLineNumber": 218,
+	"endColumn": 34,
+	"origin": "extHost1"
+}]
+[{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [54]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "54",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `Aa2d` in this scope\nuse of undeclared type `Aa2d`",
+	"source": "rustc",
+	"startLineNumber": 114,
+	"startColumn": 31,
+	"endLineNumber": 114,
+	"endColumn": 35,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected Entity, found ChildOf",
+	"source": "rust-analyzer",
+	"startLineNumber": 143,
+	"startColumn": 49,
+	"endLineNumber": 143,
+	"endColumn": 66,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [55]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "55",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `Entity`, found `ChildOf`",
+	"source": "rustc",
+	"startLineNumber": 143,
+	"startColumn": 49,
+	"endLineNumber": 143,
+	"endColumn": 66,
+	"relatedInformation": [
+		{
+			"startLineNumber": 143,
+			"startColumn": 5,
+			"endLineNumber": 143,
+			"endColumn": 20,
+			"message": "arguments to this function are incorrect",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 57,
+			"startColumn": 8,
+			"endLineNumber": 57,
+			"endColumn": 23,
+			"message": "function defined here",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/pixel_cat.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [57]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "57",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "struct `bevy::bevy_ui::widget::Text` has no field named `sections`\nfield does not exist",
+	"source": "rustc",
+	"startLineNumber": 148,
+	"startColumn": 9,
+	"endLineNumber": 148,
+	"endColumn": 17,
+	"relatedInformation": [
+		{
+			"startLineNumber": 128,
+			"startColumn": 12,
+			"endLineNumber": 128,
+			"endColumn": 16,
+			"message": "`bevy::bevy_ui::widget::Text` defined here",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		},
+		{
+			"startLineNumber": 147,
+			"startColumn": 53,
+			"endLineNumber": 157,
+			"endColumn": 6,
+			"message": "`bevy::bevy_ui::widget::Text` is a tuple struct, use the appropriate syntax: `bevy::bevy_ui::widget::Text(/* std::string::String */)`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0560",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0560.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "no such field",
+	"source": "rust-analyzer",
+	"startLineNumber": 148,
+	"startColumn": 9,
+	"endLineNumber": 155,
+	"endColumn": 11,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [0]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "0",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextSection` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 148,
+	"startColumn": 24,
+	"endLineNumber": 148,
+	"endColumn": 35,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [1]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "1",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 150,
+	"startColumn": 20,
+	"endLineNumber": 150,
+	"endColumn": 29,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [2]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "2",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 162,
+	"startColumn": 9,
+	"endLineNumber": 162,
+	"endColumn": 15,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [3]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "3",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 227,
+	"startColumn": 21,
+	"endLineNumber": 227,
+	"endColumn": 27,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected String, found &'static str",
+	"source": "rust-analyzer",
+	"startLineNumber": 239,
+	"startColumn": 27,
+	"endLineNumber": 239,
+	"endColumn": 41,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [59]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "59",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `String`, found `&str`",
+	"source": "rustc",
+	"startLineNumber": 239,
+	"startColumn": 27,
+	"endLineNumber": 239,
+	"endColumn": 41,
+	"relatedInformation": [
+		{
+			"startLineNumber": 239,
+			"startColumn": 23,
+			"endLineNumber": 239,
+			"endColumn": 26,
+			"message": "arguments to this function are incorrect",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 190,
+			"startColumn": 38,
+			"endLineNumber": 190,
+			"endColumn": 51,
+			"message": "expected because the closure was earlier called with an argument of type `std::string::String`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 147,
+			"startColumn": 21,
+			"endLineNumber": 147,
+			"endColumn": 30,
+			"message": "closure parameter defined here",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 239,
+			"startColumn": 41,
+			"endLineNumber": 239,
+			"endColumn": 41,
+			"message": "try using a conversion method: `.to_string()`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [4]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "4",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 246,
+	"startColumn": 17,
+	"endLineNumber": 246,
+	"endColumn": 23,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [64]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "64",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `PointerInteraction` in this scope\nuse of undeclared type `PointerInteraction`",
+	"source": "rustc",
+	"startLineNumber": 261,
+	"startColumn": 21,
+	"endLineNumber": 261,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [65]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "65",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `PointerInteraction` in this scope\nuse of undeclared type `PointerInteraction`",
+	"source": "rustc",
+	"startLineNumber": 279,
+	"startColumn": 21,
+	"endLineNumber": 279,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [5]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "5",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 298,
+	"startColumn": 17,
+	"endLineNumber": 298,
+	"endColumn": 23,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [6]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "6",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 312,
+	"startColumn": 17,
+	"endLineNumber": 312,
+	"endColumn": 23,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [7]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "7",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "expected value, found type alias `Button`\nnot a value",
+	"source": "rustc",
+	"startLineNumber": 350,
+	"startColumn": 17,
+	"endLineNumber": 350,
+	"endColumn": 23,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [66]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "66",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `PointerInteraction` in this scope\nuse of undeclared type `PointerInteraction`",
+	"source": "rustc",
+	"startLineNumber": 364,
+	"startColumn": 21,
+	"endLineNumber": 364,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [67]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "67",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `PointerInteraction` in this scope\nuse of undeclared type `PointerInteraction`",
+	"source": "rustc",
+	"startLineNumber": 378,
+	"startColumn": 21,
+	"endLineNumber": 378,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [38]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "38",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 401,
+	"startColumn": 42,
+	"endLineNumber": 401,
+	"endColumn": 71,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [44]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "44",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 401,
+	"startColumn": 42,
+	"endLineNumber": 401,
+	"endColumn": 71,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [68]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "68",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 402,
+	"startColumn": 18,
+	"endLineNumber": 402,
+	"endColumn": 28,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [69]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "69",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 402,
+	"startColumn": 18,
+	"endLineNumber": 402,
+	"endColumn": 28,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [70]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "70",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `earn` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 404,
+	"startColumn": 11,
+	"endLineNumber": 404,
+	"endColumn": 15,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [71]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "71",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `earn` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 404,
+	"startColumn": 11,
+	"endLineNumber": 404,
+	"endColumn": 15,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [39]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "39",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 415,
+	"startColumn": 12,
+	"endLineNumber": 415,
+	"endColumn": 41,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [47]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "47",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 415,
+	"startColumn": 12,
+	"endLineNumber": 415,
+	"endColumn": 41,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [8]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "8",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find type `DefaultFont` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 422,
+	"startColumn": 15,
+	"endLineNumber": 422,
+	"endColumn": 26,
+	"relatedInformation": [
+		{
+			"startLineNumber": 414,
+			"startColumn": 16,
+			"endLineNumber": 414,
+			"endColumn": 16,
+			"message": "you might be missing a type parameter: `<DefaultFont>`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [72]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "72",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `click_power` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 427,
+	"startColumn": 18,
+	"endLineNumber": 427,
+	"endColumn": 29,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [74]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "74",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `click_power` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 427,
+	"startColumn": 18,
+	"endLineNumber": 427,
+	"endColumn": 29,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [73]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "73",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `earn` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 428,
+	"startColumn": 7,
+	"endLineNumber": 428,
+	"endColumn": 11,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [77]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "77",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `earn` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 428,
+	"startColumn": 7,
+	"endLineNumber": 428,
+	"endColumn": 11,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected Result<Vec2, ViewportConversionError>, found Option<{unknown}>",
+	"source": "rust-analyzer",
+	"startLineNumber": 438,
+	"startColumn": 16,
+	"endLineNumber": 438,
+	"endColumn": 27,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [75]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "75",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected enum `Result<bevy::bevy_math::Vec2, ViewportConversionError>`\n   found enum `std::option::Option<_>`",
+	"source": "rustc",
+	"startLineNumber": 438,
+	"startColumn": 16,
+	"endLineNumber": 438,
+	"endColumn": 27,
+	"relatedInformation": [
+		{
+			"startLineNumber": 438,
+			"startColumn": 30,
+			"endLineNumber": 438,
+			"endColumn": 70,
+			"message": "this expression has type `Result<bevy::bevy_math::Vec2, ViewportConversionError>`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [78]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "78",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 440,
+	"startColumn": 23,
+	"endLineNumber": 440,
+	"endColumn": 35,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [10]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "10",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 442,
+	"startColumn": 21,
+	"endLineNumber": 442,
+	"endColumn": 30,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [11]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "11",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find function, tuple struct or tuple variant `PI` in module `std::f32`\nnot found in `std::f32`",
+	"source": "rustc",
+	"startLineNumber": 471,
+	"startColumn": 45,
+	"endLineNumber": 471,
+	"endColumn": 47,
+	"relatedInformation": [
+		{
+			"startLineNumber": 13,
+			"startColumn": 1,
+			"endLineNumber": 13,
+			"endColumn": 1,
+			"message": "consider importing one of these constants: `use std::f32::consts::PI;\n`, `use std::f64::consts::PI;\n`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 471,
+			"startColumn": 35,
+			"endLineNumber": 471,
+			"endColumn": 45,
+			"message": "if you import `PI`, refer to it directly",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [40]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "40",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 487,
+	"startColumn": 8,
+	"endLineNumber": 487,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [48]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "48",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 487,
+	"startColumn": 8,
+	"endLineNumber": 487,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [79]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "79",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 493,
+	"startColumn": 24,
+	"endLineNumber": 493,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [81]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "81",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 493,
+	"startColumn": 24,
+	"endLineNumber": 493,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0614",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0614.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, Text>, QuerySingleError>` cannot be dereferenced",
+	"source": "rust-analyzer",
+	"startLineNumber": 494,
+	"startColumn": 6,
+	"endLineNumber": 494,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [80]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "80",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, bevy::bevy_ui::widget::Text>, QuerySingleError>` cannot be dereferenced\ncan't be dereferenced",
+	"source": "rustc",
+	"startLineNumber": 494,
+	"startColumn": 6,
+	"endLineNumber": 494,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [82]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "82",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 494,
+	"startColumn": 35,
+	"endLineNumber": 494,
+	"endColumn": 47,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [83]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "83",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `paws` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 495,
+	"startColumn": 35,
+	"endLineNumber": 495,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [85]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "85",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `paws` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 495,
+	"startColumn": 35,
+	"endLineNumber": 495,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [14]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "14",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 496,
+	"startColumn": 9,
+	"endLineNumber": 496,
+	"endColumn": 18,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0614",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0614.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, Text>, QuerySingleError>` cannot be dereferenced",
+	"source": "rust-analyzer",
+	"startLineNumber": 502,
+	"startColumn": 6,
+	"endLineNumber": 502,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [84]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "84",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, bevy::bevy_ui::widget::Text>, QuerySingleError>` cannot be dereferenced\ncan't be dereferenced",
+	"source": "rustc",
+	"startLineNumber": 502,
+	"startColumn": 6,
+	"endLineNumber": 502,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [86]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "86",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 502,
+	"startColumn": 35,
+	"endLineNumber": 502,
+	"endColumn": 47,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [15]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "15",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 504,
+	"startColumn": 9,
+	"endLineNumber": 504,
+	"endColumn": 18,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0614",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0614.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, Text>, QuerySingleError>` cannot be dereferenced",
+	"source": "rust-analyzer",
+	"startLineNumber": 510,
+	"startColumn": 6,
+	"endLineNumber": 510,
+	"endColumn": 24,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [87]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "87",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, bevy::bevy_ui::widget::Text>, QuerySingleError>` cannot be dereferenced\ncan't be dereferenced",
+	"source": "rustc",
+	"startLineNumber": 510,
+	"startColumn": 6,
+	"endLineNumber": 510,
+	"endColumn": 24,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [88]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "88",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 510,
+	"startColumn": 33,
+	"endLineNumber": 510,
+	"endColumn": 45,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [89]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "89",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `click_power` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 511,
+	"startColumn": 34,
+	"endLineNumber": 511,
+	"endColumn": 45,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [91]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "91",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `click_power` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 511,
+	"startColumn": 34,
+	"endLineNumber": 511,
+	"endColumn": 45,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [16]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "16",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 512,
+	"startColumn": 9,
+	"endLineNumber": 512,
+	"endColumn": 18,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0614",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0614.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, Text>, QuerySingleError>` cannot be dereferenced",
+	"source": "rust-analyzer",
+	"startLineNumber": 518,
+	"startColumn": 6,
+	"endLineNumber": 518,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [90]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "90",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, bevy::bevy_ui::widget::Text>, QuerySingleError>` cannot be dereferenced\ncan't be dereferenced",
+	"source": "rustc",
+	"startLineNumber": 518,
+	"startColumn": 6,
+	"endLineNumber": 518,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [92]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "92",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 518,
+	"startColumn": 35,
+	"endLineNumber": 518,
+	"endColumn": 47,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [93]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "93",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cats` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 519,
+	"startColumn": 42,
+	"endLineNumber": 519,
+	"endColumn": 46,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [94]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "94",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cats` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 519,
+	"startColumn": 42,
+	"endLineNumber": 519,
+	"endColumn": 46,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [17]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "17",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 520,
+	"startColumn": 9,
+	"endLineNumber": 520,
+	"endColumn": 18,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [41]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "41",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 530,
+	"startColumn": 8,
+	"endLineNumber": 530,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [49]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "49",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 530,
+	"startColumn": 8,
+	"endLineNumber": 530,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [95]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "95",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 536,
+	"startColumn": 23,
+	"endLineNumber": 536,
+	"endColumn": 37,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [96]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "96",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 536,
+	"startColumn": 23,
+	"endLineNumber": 536,
+	"endColumn": 37,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [97]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "97",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `bulk_cost` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 537,
+	"startColumn": 22,
+	"endLineNumber": 537,
+	"endColumn": 31,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [99]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "99",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `bulk_cost` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 537,
+	"startColumn": 22,
+	"endLineNumber": 537,
+	"endColumn": 31,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [98]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "98",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `owned` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 538,
+	"startColumn": 23,
+	"endLineNumber": 538,
+	"endColumn": 28,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [100]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "100",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `owned` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 538,
+	"startColumn": 23,
+	"endLineNumber": 538,
+	"endColumn": 28,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [101]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "101",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 539,
+	"startColumn": 24,
+	"endLineNumber": 539,
+	"endColumn": 36,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [18]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "18",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 541,
+	"startColumn": 13,
+	"endLineNumber": 541,
+	"endColumn": 22,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [102]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "102",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 549,
+	"startColumn": 24,
+	"endLineNumber": 549,
+	"endColumn": 38,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [106]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "106",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 549,
+	"startColumn": 24,
+	"endLineNumber": 549,
+	"endColumn": 38,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected Color, found BackgroundColor",
+	"source": "rust-analyzer",
+	"startLineNumber": 550,
+	"startColumn": 16,
+	"endLineNumber": 550,
+	"endColumn": 78,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [103]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "103",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `Color`, found `BackgroundColor`",
+	"source": "rustc",
+	"startLineNumber": 550,
+	"startColumn": 16,
+	"endLineNumber": 550,
+	"endColumn": 78,
+	"relatedInformation": [
+		{
+			"startLineNumber": 550,
+			"startColumn": 9,
+			"endLineNumber": 550,
+			"endColumn": 13,
+			"message": "expected due to the type of this binding",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 550,
+			"startColumn": 16,
+			"endLineNumber": 550,
+			"endColumn": 16,
+			"message": "consider dereferencing the type: `*`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [42]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "42",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 556,
+	"startColumn": 8,
+	"endLineNumber": 556,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [50]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "50",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 556,
+	"startColumn": 8,
+	"endLineNumber": 556,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [107]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "107",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `cat_upgrade_price` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 561,
+	"startColumn": 23,
+	"endLineNumber": 561,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [109]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "109",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `cat_upgrade_price` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 561,
+	"startColumn": 23,
+	"endLineNumber": 561,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [108]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "108",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cat_upgrades_bought` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 562,
+	"startColumn": 22,
+	"endLineNumber": 562,
+	"endColumn": 41,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [110]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "110",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cat_upgrades_bought` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 562,
+	"startColumn": 22,
+	"endLineNumber": 562,
+	"endColumn": 41,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [111]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "111",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 567,
+	"startColumn": 24,
+	"endLineNumber": 567,
+	"endColumn": 36,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [19]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "19",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 569,
+	"startColumn": 13,
+	"endLineNumber": 569,
+	"endColumn": 22,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [112]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "112",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cat_upgrades_bought` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 21,
+	"endLineNumber": 577,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [114]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "114",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cat_upgrades_bought` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 21,
+	"endLineNumber": 577,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [113]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "113",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cats` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 55,
+	"endLineNumber": 577,
+	"endColumn": 59,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [115]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "115",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `cats` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 55,
+	"endLineNumber": 577,
+	"endColumn": 59,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [116]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "116",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `cat_upgrade_price` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 65,
+	"endLineNumber": 577,
+	"endColumn": 82,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [120]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "120",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `cat_upgrade_price` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 577,
+	"startColumn": 65,
+	"endLineNumber": 577,
+	"endColumn": 82,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected Color, found BackgroundColor",
+	"source": "rust-analyzer",
+	"startLineNumber": 578,
+	"startColumn": 16,
+	"endLineNumber": 578,
+	"endColumn": 74,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [117]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "117",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `Color`, found `BackgroundColor`",
+	"source": "rustc",
+	"startLineNumber": 578,
+	"startColumn": 16,
+	"endLineNumber": 578,
+	"endColumn": 74,
+	"relatedInformation": [
+		{
+			"startLineNumber": 578,
+			"startColumn": 9,
+			"endLineNumber": 578,
+			"endColumn": 13,
+			"message": "expected due to the type of this binding",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 578,
+			"startColumn": 16,
+			"endLineNumber": 578,
+			"endColumn": 16,
+			"message": "consider dereferencing the type: `*`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [43]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "43",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 584,
+	"startColumn": 8,
+	"endLineNumber": 584,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [51]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "51",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 584,
+	"startColumn": 8,
+	"endLineNumber": 584,
+	"endColumn": 34,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [121]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "121",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `prestige_gain` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 587,
+	"startColumn": 18,
+	"endLineNumber": 587,
+	"endColumn": 31,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [123]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "123",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `prestige_gain` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 587,
+	"startColumn": 18,
+	"endLineNumber": 587,
+	"endColumn": 31,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [20]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "20",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "cannot find struct, variant or union type `TextStyle` in this scope\nnot found in this scope",
+	"source": "rustc",
+	"startLineNumber": 588,
+	"startColumn": 21,
+	"endLineNumber": 588,
+	"endColumn": 30,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0614",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0614.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, Text>, QuerySingleError>` cannot be dereferenced",
+	"source": "rust-analyzer",
+	"startLineNumber": 593,
+	"startColumn": 6,
+	"endLineNumber": 593,
+	"endColumn": 24,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [122]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "122",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "type `Result<Mut<'_, bevy::bevy_ui::widget::Text>, QuerySingleError>` cannot be dereferenced\ncan't be dereferenced",
+	"source": "rustc",
+	"startLineNumber": 593,
+	"startColumn": 6,
+	"endLineNumber": 593,
+	"endColumn": 24,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [124]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "124",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 594,
+	"startColumn": 15,
+	"endLineNumber": 594,
+	"endColumn": 27,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [125]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "125",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `total_paws_run` on type `bevy::bevy_ecs::change_detection::Res<'_, GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 596,
+	"startColumn": 56,
+	"endLineNumber": 596,
+	"endColumn": 70,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [126]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "126",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no field `total_paws_run` on type `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`\nunknown field",
+	"source": "rustc",
+	"startLineNumber": 596,
+	"startColumn": 56,
+	"endLineNumber": 596,
+	"endColumn": 70,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [127]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "127",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 597,
+	"startColumn": 24,
+	"endLineNumber": 597,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [128]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "128",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 597,
+	"startColumn": 24,
+	"endLineNumber": 597,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [129]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "129",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 600,
+	"startColumn": 47,
+	"endLineNumber": 600,
+	"endColumn": 57,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [131]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "131",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `total_rate` found for struct `bevy::bevy_ecs::change_detection::Res<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 600,
+	"startColumn": 47,
+	"endLineNumber": 600,
+	"endColumn": 57,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [130]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "130",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_section` found for struct `bevy::bevy_ui::widget::Text` in the current scope\nassociated function or constant not found in `bevy::bevy_ui::widget::Text`",
+	"source": "rustc",
+	"startLineNumber": 602,
+	"startColumn": 15,
+	"endLineNumber": 602,
+	"endColumn": 27,
+	"relatedInformation": [
+		{
+			"startLineNumber": 132,
+			"startColumn": 5,
+			"endLineNumber": 132,
+			"endColumn": 48,
+			"message": "if you're trying to build a new `bevy::bevy_ui::widget::Text`, consider using `bevy::bevy_ui::widget::Text::new` which returns `bevy::bevy_ui::widget::Text`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ui-0.20.0/src/widget/text.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [45]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "45",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 614,
+	"startColumn": 12,
+	"endLineNumber": 614,
+	"endColumn": 41,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [52]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "52",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 614,
+	"startColumn": 12,
+	"endLineNumber": 614,
+	"endColumn": 41,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 618,
+			"startColumn": 35,
+			"endLineNumber": 618,
+			"endColumn": 65,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::ResMut`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [132]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "132",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 624,
+	"startColumn": 23,
+	"endLineNumber": 624,
+	"endColumn": 37,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [133]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "133",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `max_affordable` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 624,
+	"startColumn": 23,
+	"endLineNumber": 624,
+	"endColumn": 37,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [134]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "134",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `try_buy` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 625,
+	"startColumn": 15,
+	"endLineNumber": 625,
+	"endColumn": 22,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [135]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "135",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `try_buy` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 625,
+	"startColumn": 15,
+	"endLineNumber": 625,
+	"endColumn": 22,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [136]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "136",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `try_buy_cat_upgrade` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 631,
+	"startColumn": 15,
+	"endLineNumber": 631,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [138]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "138",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `try_buy_cat_upgrade` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 631,
+	"startColumn": 15,
+	"endLineNumber": 631,
+	"endColumn": 34,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [137]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "137",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `do_prestige` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 637,
+	"startColumn": 15,
+	"endLineNumber": 637,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [139]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "139",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `do_prestige` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 637,
+	"startColumn": 15,
+	"endLineNumber": 637,
+	"endColumn": 26,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [140]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "140",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `hard_reset` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 643,
+	"startColumn": 15,
+	"endLineNumber": 643,
+	"endColumn": 25,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [150]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "150",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no method named `hard_reset` found for struct `bevy::bevy_ecs::change_detection::ResMut<'w, T>` in the current scope\nmethod not found in `bevy::bevy_ecs::change_detection::ResMut<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 643,
+	"startColumn": 15,
+	"endLineNumber": 643,
+	"endColumn": 25,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected Color, found BackgroundColor",
+	"source": "rust-analyzer",
+	"startLineNumber": 664,
+	"startColumn": 20,
+	"endLineNumber": 664,
+	"endColumn": 86,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [141]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "141",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected `Color`, found `BackgroundColor`",
+	"source": "rustc",
+	"startLineNumber": 664,
+	"startColumn": 20,
+	"endLineNumber": 664,
+	"endColumn": 86,
+	"relatedInformation": [
+		{
+			"startLineNumber": 664,
+			"startColumn": 13,
+			"endLineNumber": 664,
+			"endColumn": 17,
+			"message": "expected due to the type of this binding",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 664,
+			"startColumn": 20,
+			"endLineNumber": 664,
+			"endColumn": 20,
+			"message": "consider dereferencing the type: `*`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [46]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "46",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 670,
+	"startColumn": 59,
+	"endLineNumber": 670,
+	"endColumn": 85,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [53]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "53",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 670,
+	"startColumn": 59,
+	"endLineNumber": 670,
+	"endColumn": 85,
+	"relatedInformation": [
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 543,
+			"startColumn": 32,
+			"endLineNumber": 543,
+			"endColumn": 40,
+			"message": "required by a bound in `bevy::bevy_ecs::change_detection::Res`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_ecs-0.20.0/src/change_detection/params.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rust-analyzer",
+	"code": {
+		"value": "E0308",
+		"target": {
+			"$mid": 1,
+			"path": "/stable/error_codes/E0308.html",
+			"scheme": "https",
+			"authority": "doc.rust-lang.org"
+		}
+	},
+	"severity": 8,
+	"message": "expected &GameState, found &Res<'_, GameState>",
+	"source": "rust-analyzer",
+	"startLineNumber": 676,
+	"startColumn": 14,
+	"endLineNumber": 676,
+	"endColumn": 16,
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [144]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "144",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected reference `&GameState`\n   found reference `&bevy::bevy_ecs::change_detection::Res<'_, GameState>`",
+	"source": "rustc",
+	"startLineNumber": 676,
+	"startColumn": 14,
+	"endLineNumber": 676,
+	"endColumn": 16,
+	"relatedInformation": [
+		{
+			"startLineNumber": 676,
+			"startColumn": 5,
+			"endLineNumber": 676,
+			"endColumn": 13,
+			"message": "arguments to this function are incorrect",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 679,
+			"startColumn": 4,
+			"endLineNumber": 679,
+			"endColumn": 12,
+			"message": "function defined here",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [151]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "151",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "mismatched types\nexpected reference `&game_state::GameState`\n   found reference `&bevy::bevy_ecs::change_detection::Res<'_, game_state::GameState>`",
+	"source": "rustc",
+	"startLineNumber": 676,
+	"startColumn": 14,
+	"endLineNumber": 676,
+	"endColumn": 16,
+	"relatedInformation": [
+		{
+			"startLineNumber": 676,
+			"startColumn": 5,
+			"endLineNumber": 676,
+			"endColumn": 13,
+			"message": "arguments to this function are incorrect",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 679,
+			"startColumn": 4,
+			"endLineNumber": 679,
+			"endColumn": 12,
+			"message": "function defined here",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [147]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "147",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "the trait bound `WindowResolution: From<({float}, {float})>` is not satisfied\nrequired for `({float}, {float})` to implement `Into<WindowResolution>`",
+	"source": "rustc",
+	"startLineNumber": 698,
+	"startColumn": 45,
+	"endLineNumber": 698,
+	"endColumn": 49,
+	"relatedInformation": [
+		{
+			"startLineNumber": 1044,
+			"startColumn": 1,
+			"endLineNumber": 1044,
+			"endColumn": 43,
+			"message": "`WindowResolution` implements trait `From<T>`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_window-0.20.0/src/window.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [148]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "148",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`GameState` is not a `Resource`\nconsider annotating `GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 704,
+	"startColumn": 26,
+	"endLineNumber": 704,
+	"endColumn": 31,
+	"relatedInformation": [
+		{
+			"startLineNumber": 704,
+			"startColumn": 10,
+			"endLineNumber": 704,
+			"endColumn": 25,
+			"message": "required by a bound introduced by this call",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 451,
+			"startColumn": 31,
+			"endLineNumber": 451,
+			"endColumn": 39,
+			"message": "required by a bound in `bevy::bevy_app::App::insert_resource`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_app-0.20.0/src/app.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [154]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "154",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`game_state::GameState` is not a `Resource`\nconsider annotating `game_state::GameState` with `#[derive(Resource)]`\nthe following other types implement trait `bevy::bevy_ecs::resource::Resource`:\n  AccessibilityRequested\n  AccumulatedMouseMotion\n  AccumulatedMouseScroll\n  AppTypeRegistry\n  AssetProcessor\n  AssetSourceBuilders\n  BatchedInstanceBuffer<BD>\n  BatchedInstanceBuffers<BD, BDI>\nand 151 others",
+	"source": "rustc",
+	"startLineNumber": 704,
+	"startColumn": 26,
+	"endLineNumber": 704,
+	"endColumn": 31,
+	"relatedInformation": [
+		{
+			"startLineNumber": 704,
+			"startColumn": 10,
+			"endLineNumber": 704,
+			"endColumn": 25,
+			"message": "required by a bound introduced by this call",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		},
+		{
+			"startLineNumber": 137,
+			"startColumn": 1,
+			"endLineNumber": 137,
+			"endColumn": 21,
+			"message": "the trait `bevy::bevy_ecs::resource::Resource` is not implemented for `game_state::GameState`",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/game_state.rs"
+		},
+		{
+			"startLineNumber": 451,
+			"startColumn": 31,
+			"endLineNumber": 451,
+			"endColumn": 39,
+			"message": "required by a bound in `bevy::bevy_app::App::insert_resource`",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_app-0.20.0/src/app.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [152]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "152",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`(..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ...)` is not an iterator\nthe following trait bounds were not satisfied:\n`(for<'a, 'b> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::change_detection::ResMut<'b, GameState>) {income_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::ResMut<'a, CursorOverCat>, bevy::bevy_ecs::system::Single<'b, 'c, &'d DeprecatedInteraction, bevy::bevy_ecs::query::With<CatClickZone>>) {hover_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, GameState>, bevy::bevy_ecs::change_detection::ResMut<'b, bevy::bevy_input::ButtonInput<bevy::bevy_input::mouse::MouseButton>>, bevy::bevy_ecs::change_detection::Res<'c, CursorOverCat>, bevy::bevy_ecs::system::Query<'d, 'e, &'f mut CatSquish>, bevy::bevy_ecs::system::Commands<'g, 'h>, bevy::bevy_ecs::system::Single<'i, 'j, &'k bevy::bevy_window::Window>, bevy::bevy_ecs::system::Single<'l, 'm, (&'n bevy::bevy_camera::Camera, &'o bevy::bevy_transform::components::GlobalTransform), bevy::bevy_ecs::query::With<bevy::bevy_camera::Camera2d>>, bevy::bevy_ecs::change_detection::Res<'p, {type error}>) {click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut CatSquish, &'e mut bevy::bevy_transform::components::Transform), bevy::bevy_ecs::query::With<CatRootMarker>>, bevy::bevy_ecs::system::Query<'f, 'g, (bevy::bevy_ecs::entity::Entity, &'h mut FloatingText, &'i mut bevy::bevy_transform::components::Transform)>, bevy::bevy_ecs::system::Commands<'j, 'k>) {animation_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PawsText>>, bevy::bevy_ecs::system::Query<'e, 'f, &'g mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<RateText>>, bevy::bevy_ecs::system::Query<'h, 'i, &'j mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<ClickPowerText>>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<CatsText>>) {ui_text_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e BuyLabel, &'f mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i BuyButton, &'j mut bevy::bevy_ui::BackgroundColor)>) {shop_buttons_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d CatBuyLabel, &'e mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h CatBuyButton, &'i mut bevy::bevy_ui::BackgroundColor)>) {cat_shop_buttons_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PrestigeInfoText>>) {prestige_button_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e mut DeprecatedInteraction, &'f BuyButton)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i mut DeprecatedInteraction, &'j CatBuyButton)>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut DeprecatedInteraction, bevy::bevy_ecs::query::With<PrestigeButton>>, bevy::bevy_ecs::system::Query<'n, 'o, &'p mut DeprecatedInteraction, bevy::bevy_ecs::query::With<ResetButton>>) {buy_click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::ResMut<'a, BuyAmount>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut DeprecatedInteraction, &'e AmountBtn)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h AmountBtn, &'i mut bevy::bevy_ui::BackgroundColor)>) {amount_switch_system}, for<'a, 'b, 'c> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Local<'b, f32>, bevy::bevy_ecs::change_detection::Res<'c, GameState>) {save_system}): Iterator`\nwhich is required by `&mut (for<'a, 'b> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::change_detection::ResMut<'b, GameState>) {income_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::ResMut<'a, CursorOverCat>, bevy::bevy_ecs::system::Single<'b, 'c, &'d DeprecatedInteraction, bevy::bevy_ecs::query::With<CatClickZone>>) {hover_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, GameState>, bevy::bevy_ecs::change_detection::ResMut<'b, bevy::bevy_input::ButtonInput<bevy::bevy_input::mouse::MouseButton>>, bevy::bevy_ecs::change_detection::Res<'c, CursorOverCat>, bevy::bevy_ecs::system::Query<'d, 'e, &'f mut CatSquish>, bevy::bevy_ecs::system::Commands<'g, 'h>, bevy::bevy_ecs::system::Single<'i, 'j, &'k bevy::bevy_window::Window>, bevy::bevy_ecs::system::Single<'l, 'm, (&'n bevy::bevy_camera::Camera, &'o bevy::bevy_transform::components::GlobalTransform), bevy::bevy_ecs::query::With<bevy::bevy_camera::Camera2d>>, bevy::bevy_ecs::change_detection::Res<'p, {type error}>) {click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut CatSquish, &'e mut bevy::bevy_transform::components::Transform), bevy::bevy_ecs::query::With<CatRootMarker>>, bevy::bevy_ecs::system::Query<'f, 'g, (bevy::bevy_ecs::entity::Entity, &'h mut FloatingText, &'i mut bevy::bevy_transform::components::Transform)>, bevy::bevy_ecs::system::Commands<'j, 'k>) {animation_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PawsText>>, bevy::bevy_ecs::system::Query<'e, 'f, &'g mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<RateText>>, bevy::bevy_ecs::system::Query<'h, 'i, &'j mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<ClickPowerText>>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<CatsText>>) {ui_text_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e BuyLabel, &'f mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i BuyButton, &'j mut bevy::bevy_ui::BackgroundColor)>) {shop_buttons_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d CatBuyLabel, &'e mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h CatBuyButton, &'i mut bevy::bevy_ui::BackgroundColor)>) {cat_shop_buttons_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::Res<'a, GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PrestigeInfoText>>) {prestige_button_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e mut DeprecatedInteraction, &'f BuyButton)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i mut DeprecatedInteraction, &'j CatBuyButton)>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut DeprecatedInteraction, bevy::bevy_ecs::query::With<PrestigeButton>>, bevy::bevy_ecs::system::Query<'n, 'o, &'p mut DeprecatedInteraction, bevy::bevy_ecs::query::With<ResetButton>>) {buy_click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::ResMut<'a, BuyAmount>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut DeprecatedInteraction, &'e AmountBtn)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h AmountBtn, &'i mut bevy::bevy_ui::BackgroundColor)>) {amount_switch_system}, for<'a, 'b, 'c> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Local<'b, f32>, bevy::bevy_ecs::change_detection::Res<'c, GameState>) {save_system}): Iterator`\nthe full name for the type has been written to 'C:\\Users\\alexa\\Desktop\\rustik\\Vibe-game\\Vibe-Game-Incremental\\kitty-tycoon\\target\\debug\\deps\\kitty_tycoon-61343d756d791b51.long-type-4240274036325319532.txt'\nconsider using `--verbose` to print the full type name to the console",
+	"source": "rustc",
+	"startLineNumber": 722,
+	"startColumn": 18,
+	"endLineNumber": 722,
+	"endColumn": 23,
+	"relatedInformation": [
+		{
+			"startLineNumber": 709,
+			"startColumn": 13,
+			"endLineNumber": 722,
+			"endColumn": 18,
+			"message": " ",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [155]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "155",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 8,
+	"message": "`(..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ...)` is not an iterator\nthe following trait bounds were not satisfied:\n`(for<'a, 'b> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::change_detection::ResMut<'b, game_state::GameState>) {income_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::ResMut<'a, CursorOverCat>, bevy::bevy_ecs::system::Single<'b, 'c, &'d DeprecatedInteraction, bevy::bevy_ecs::query::With<CatClickZone>>) {hover_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::ResMut<'b, bevy::bevy_input::ButtonInput<bevy::bevy_input::mouse::MouseButton>>, bevy::bevy_ecs::change_detection::Res<'c, CursorOverCat>, bevy::bevy_ecs::system::Query<'d, 'e, &'f mut CatSquish>, bevy::bevy_ecs::system::Commands<'g, 'h>, bevy::bevy_ecs::system::Single<'i, 'j, &'k bevy::bevy_window::Window>, bevy::bevy_ecs::system::Single<'l, 'm, (&'n bevy::bevy_camera::Camera, &'o bevy::bevy_transform::components::GlobalTransform), bevy::bevy_ecs::query::With<bevy::bevy_camera::Camera2d>>, bevy::bevy_ecs::change_detection::Res<'p, {type error}>) {click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut CatSquish, &'e mut bevy::bevy_transform::components::Transform), bevy::bevy_ecs::query::With<CatRootMarker>>, bevy::bevy_ecs::system::Query<'f, 'g, (bevy::bevy_ecs::entity::Entity, &'h mut FloatingText, &'i mut bevy::bevy_transform::components::Transform)>, bevy::bevy_ecs::system::Commands<'j, 'k>) {animation_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PawsText>>, bevy::bevy_ecs::system::Query<'e, 'f, &'g mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<RateText>>, bevy::bevy_ecs::system::Query<'h, 'i, &'j mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<ClickPowerText>>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<CatsText>>) {ui_text_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e BuyLabel, &'f mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i BuyButton, &'j mut bevy::bevy_ui::BackgroundColor)>) {shop_buttons_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d CatBuyLabel, &'e mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h CatBuyButton, &'i mut bevy::bevy_ui::BackgroundColor)>) {cat_shop_buttons_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PrestigeInfoText>>) {prestige_button_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e mut DeprecatedInteraction, &'f BuyButton)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i mut DeprecatedInteraction, &'j CatBuyButton)>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut DeprecatedInteraction, bevy::bevy_ecs::query::With<PrestigeButton>>, bevy::bevy_ecs::system::Query<'n, 'o, &'p mut DeprecatedInteraction, bevy::bevy_ecs::query::With<ResetButton>>) {buy_click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::ResMut<'a, BuyAmount>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut DeprecatedInteraction, &'e AmountBtn)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h AmountBtn, &'i mut bevy::bevy_ui::BackgroundColor)>) {amount_switch_system}, for<'a, 'b, 'c> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Local<'b, f32>, bevy::bevy_ecs::change_detection::Res<'c, game_state::GameState>) {save_system}): Iterator`\nwhich is required by `&mut (for<'a, 'b> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::change_detection::ResMut<'b, game_state::GameState>) {income_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::ResMut<'a, CursorOverCat>, bevy::bevy_ecs::system::Single<'b, 'c, &'d DeprecatedInteraction, bevy::bevy_ecs::query::With<CatClickZone>>) {hover_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::ResMut<'b, bevy::bevy_input::ButtonInput<bevy::bevy_input::mouse::MouseButton>>, bevy::bevy_ecs::change_detection::Res<'c, CursorOverCat>, bevy::bevy_ecs::system::Query<'d, 'e, &'f mut CatSquish>, bevy::bevy_ecs::system::Commands<'g, 'h>, bevy::bevy_ecs::system::Single<'i, 'j, &'k bevy::bevy_window::Window>, bevy::bevy_ecs::system::Single<'l, 'm, (&'n bevy::bevy_camera::Camera, &'o bevy::bevy_transform::components::GlobalTransform), bevy::bevy_ecs::query::With<bevy::bevy_camera::Camera2d>>, bevy::bevy_ecs::change_detection::Res<'p, {type error}>) {click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut CatSquish, &'e mut bevy::bevy_transform::components::Transform), bevy::bevy_ecs::query::With<CatRootMarker>>, bevy::bevy_ecs::system::Query<'f, 'g, (bevy::bevy_ecs::entity::Entity, &'h mut FloatingText, &'i mut bevy::bevy_transform::components::Transform)>, bevy::bevy_ecs::system::Commands<'j, 'k>) {animation_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PawsText>>, bevy::bevy_ecs::system::Query<'e, 'f, &'g mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<RateText>>, bevy::bevy_ecs::system::Query<'h, 'i, &'j mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<ClickPowerText>>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<CatsText>>) {ui_text_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e BuyLabel, &'f mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i BuyButton, &'j mut bevy::bevy_ui::BackgroundColor)>) {shop_buttons_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d CatBuyLabel, &'e mut bevy::bevy_ui::widget::Text)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h CatBuyButton, &'i mut bevy::bevy_ui::BackgroundColor)>) {cat_shop_buttons_system}, for<'a, 'b, 'c, 'd> fn(bevy::bevy_ecs::change_detection::Res<'a, game_state::GameState>, bevy::bevy_ecs::system::Query<'b, 'c, &'d mut bevy::bevy_ui::widget::Text, bevy::bevy_ecs::query::With<PrestigeInfoText>>) {prestige_button_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'l, 'm, 'n, 'o, 'p> fn(bevy::bevy_ecs::change_detection::ResMut<'a, game_state::GameState>, bevy::bevy_ecs::change_detection::Res<'b, BuyAmount>, bevy::bevy_ecs::system::Query<'c, 'd, (&'e mut DeprecatedInteraction, &'f BuyButton)>, bevy::bevy_ecs::system::Query<'g, 'h, (&'i mut DeprecatedInteraction, &'j CatBuyButton)>, bevy::bevy_ecs::system::Query<'k, 'l, &'m mut DeprecatedInteraction, bevy::bevy_ecs::query::With<PrestigeButton>>, bevy::bevy_ecs::system::Query<'n, 'o, &'p mut DeprecatedInteraction, bevy::bevy_ecs::query::With<ResetButton>>) {buy_click_system}, for<'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i> fn(bevy::bevy_ecs::change_detection::ResMut<'a, BuyAmount>, bevy::bevy_ecs::system::Query<'b, 'c, (&'d mut DeprecatedInteraction, &'e AmountBtn)>, bevy::bevy_ecs::system::Query<'f, 'g, (&'h AmountBtn, &'i mut bevy::bevy_ui::BackgroundColor)>) {amount_switch_system}, for<'a, 'b, 'c> fn(bevy::bevy_ecs::change_detection::Res<'a, bevy::bevy_time::Time>, bevy::bevy_ecs::system::Local<'b, f32>, bevy::bevy_ecs::change_detection::Res<'c, game_state::GameState>) {save_system}): Iterator`\nthe full name for the type has been written to 'C:\\Users\\alexa\\Desktop\\rustik\\Vibe-game\\Vibe-Game-Incremental\\kitty-tycoon\\target\\debug\\deps\\kitty_tycoon-318f4d097cc2707f.long-type-3507604153296420389.txt'\nconsider using `--verbose` to print the full type name to the console",
+	"source": "rustc",
+	"startLineNumber": 722,
+	"startColumn": 18,
+	"endLineNumber": 722,
+	"endColumn": 23,
+	"relatedInformation": [
+		{
+			"startLineNumber": 709,
+			"startColumn": 13,
+			"endLineNumber": 722,
+			"endColumn": 18,
+			"message": " ",
+			"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	],
+	"modelVersionId": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [21]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "21",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.\n`#[warn(deprecated)]` on by default",
+	"source": "rustc",
+	"startLineNumber": 409,
+	"startColumn": 66,
+	"endLineNumber": 409,
+	"endColumn": 77,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [22]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "22",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 410,
+	"startColumn": 26,
+	"endLineNumber": 410,
+	"endColumn": 37,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [23]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "23",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 616,
+	"startColumn": 28,
+	"endLineNumber": 616,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [24]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "24",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 617,
+	"startColumn": 31,
+	"endLineNumber": 617,
+	"endColumn": 42,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [25]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "25",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 618,
+	"startColumn": 28,
+	"endLineNumber": 618,
+	"endColumn": 39,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [26]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "26",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 619,
+	"startColumn": 29,
+	"endLineNumber": 619,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [27]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "27",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 622,
+	"startColumn": 22,
+	"endLineNumber": 622,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [28]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "28",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 623,
+	"startColumn": 22,
+	"endLineNumber": 623,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [29]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "29",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 629,
+	"startColumn": 22,
+	"endLineNumber": 629,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [30]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "30",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 630,
+	"startColumn": 22,
+	"endLineNumber": 630,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [31]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "31",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 635,
+	"startColumn": 22,
+	"endLineNumber": 635,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [32]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "32",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 636,
+	"startColumn": 22,
+	"endLineNumber": 636,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [33]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "33",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 641,
+	"startColumn": 22,
+	"endLineNumber": 641,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [34]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "34",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 642,
+	"startColumn": 22,
+	"endLineNumber": 642,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [35]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "35",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 651,
+	"startColumn": 29,
+	"endLineNumber": 651,
+	"endColumn": 40,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [36]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "36",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 656,
+	"startColumn": 22,
+	"endLineNumber": 656,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [37]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "37",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/main.rs"
+		}
+	},
+	"severity": 4,
+	"message": "use of deprecated type alias `bevy::bevy_ui::Interaction`: Use picking::hover::Hovered and ui::Pressed.",
+	"source": "rustc",
+	"startLineNumber": 657,
+	"startColumn": 22,
+	"endLineNumber": 657,
+	"endColumn": 33,
+	"modelVersionId": 1,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+}]
+[{
+	"resource": "/c:/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/pixel_cat.rs",
+	"owner": "rustc",
+	"code": {
+		"value": "Click for full compiler diagnostic",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostic message [0]",
+			"scheme": "rust-analyzer-diagnostics-view",
+			"query": "0",
+			"fragment": "file:///c%3A/Users/alexa/Desktop/rustik/Vibe-game/Vibe-Game-Incremental/kitty-tycoon/src/pixel_cat.rs"
+		}
+	},
+	"severity": 8,
+	"message": "no associated function or constant named `from_fill` found for struct `bevy::bevy_image::Image` in the current scope\nassociated function or constant not found in `bevy::bevy_image::Image`",
+	"source": "rustc",
+	"startLineNumber": 59,
+	"startColumn": 38,
+	"endLineNumber": 59,
+	"endColumn": 47,
+	"relatedInformation": [
+		{
+			"startLineNumber": 1123,
+			"startColumn": 5,
+			"endLineNumber": 1129,
+			"endColumn": 14,
+			"message": "if you're trying to build a new `bevy::bevy_image::Image` consider using one of the following associated functions:\nbevy::bevy_image::Image::new\nbevy::bevy_image::Image::new_uninit\nbevy::bevy_image::Image::transparent\nbevy::bevy_image::Image::default_uninit\nand 4 others",
+			"resource": "/c:/Users/alexa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bevy_image-0.20.0/src/image.rs"
+		}
+	],
+	"origin": "extHost1"
+}]
